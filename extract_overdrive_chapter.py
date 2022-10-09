@@ -1,4 +1,6 @@
-# Copy of @ex-nerd's (Chris Petersen) script (citation at end of script).
+# Copy of @ex-nerd's (Chris Petersen) script.
+## Petersen, C ‘python script to extract chapters · Issue #39 · chbrown/overdrive’, retrieved October 10, 2022, from <https://github.com/chbrown/overdrive/issues/39>.
+
 # Use this then create_FFMETADATAFILE.py to add chapters to created m4b file.
 
 #!/usr/bin/env python3
@@ -112,5 +114,3 @@ if __name__ == "__main__":
     for dirname, dirs, files in os.walk(path, topdown=True):
         dirs[:] = [d for d in dirs if d not in {".git", ".direnv"}]
         visit(dirname, files)
-
-# Petersen, C ‘python script to extract chapters · Issue #39 · chbrown/overdrive’, retrieved October 10, 2022, from <https://github.com/chbrown/overdrive/issues/39>.
