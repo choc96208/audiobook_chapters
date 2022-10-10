@@ -1,13 +1,15 @@
 # Copy of @ex-nerd's (Chris Petersen) script.
 ## Petersen, C ‘python script to extract chapters · Issue #39 · chbrown/overdrive’, retrieved October 10, 2022, from <https://github.com/chbrown/overdrive/issues/39>.
 
+# Renamed output file to chapters.txt instead of overdrive_chapters.txt.
+
 # Use this then create_FFMETADATAFILE.py to add chapters to created m4b file.
 
 #!/usr/bin/env python3
 #
 # Recursively scans current or specified directory for all subdirectories
 # containing mp3 files. If these mp3 files contain overdrive chapter markers
-# (id3 tag), writes overdrive_chapters.txt to the same directory.
+# (id3 tag), writes chapters.txt to the same directory.
 #
 # Usage:
 #
@@ -96,7 +98,7 @@ def visit(dirname, filenames):
                     continue
                 all_chapters[chapter[0]] = chapter[1]
     if len(all_chapters) > 0:
-        with open("overdrive_chapters.txt", "w") as file:
+        with open("chapters.txt", "w") as file:
             for name, length in all_chapters.items():
                 chapstr = f"{timestr(length)} {name}"
                 print(chapstr)
