@@ -32,7 +32,7 @@ Lastly add metadata using [kid3](https://sourceforge.net/projects/kid3/). Ben Do
 
 *Kid3 Tag Editor*, retrieved 10 October 2022, from <https://sourceforge.net/projects/kid3/>.
 
-Petersen, C *python script to extract chapters · Issue #39 · chbrown/overdrive*, @ex-nerd, retrieved 10 October 2022, from <https://github.com/chbrown/overdrive/issues/39#issuecomment-1267998153>.
+Petersen, C 2022 *python script to extract chapters · Issue #39 · chbrown/overdrive*, @ex-nerd, retrieved 10 October 2022, from <https://github.com/chbrown/overdrive/issues/39#issuecomment-1267998153>.
 
 slhck 2011, *Answer to “FFmpeg command to convert MP3 to AAC”*, Super User, retrieved 10 October 2022, from <https://superuser.com/a/370637>.
 
